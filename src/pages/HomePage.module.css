@@ -1,0 +1,95 @@
+.wrapperFrame2085660371Child {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: scale(5.851);
+}
+
+.wrapperFrame2085660371 {
+  height: 170px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emblem2Icon {
+  height: 230px;
+  width: 230px;
+  position: absolute;
+  top: -41px;
+  left: 8px;
+  z-index: 2;
+}
+
+.wrapperFrame2085660371Parent {
+  width: 606px;
+  height: 170px;
+  position: absolute;
+  top: 361px;
+  left: 1134px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.wrapperFrame2085660373Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(5.851);
+}
+
+.wrapperFrame2085660373 {
+  width: 606px;
+  height: 170px;
+  position: absolute;
+  top: 345px;
+  left: -303px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.homePage,
+.logoContainerParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.logoContainerParent {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+.homePage {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 var(--padding-xs); /* Adjust padding as needed */
+  box-sizing: border-box;
+  background-image: url(/public/home-page@3x.png); /* Check path to image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}

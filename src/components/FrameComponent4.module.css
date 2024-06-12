@@ -1,0 +1,214 @@
+.refurbishingTheRealm {
+  margin: 0 !important;
+  height: 154px;
+  width: 485px;
+  position: absolute;
+  top: calc(50% - 77px);
+  right: -138px;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.everythingAwesomeAt,
+.theExchangeNeeded {
+  display: block;
+}
+.theExchangeNeededContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.06em;
+  line-height: 24px;
+  font-weight: 300;
+}
+.startBuilding {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  font-family: var(--font-sarabun);
+  color: var(--greytext);
+  text-align: left;
+  display: inline-block;
+  min-width: 100px;
+}
+.mingcutearrowLeftUpLineIcon {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.callToActionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.callToActionContainer,
+.callToActionContainerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.callToActionContainer {
+  cursor: pointer;
+  border: 1px solid var(--grey);
+  padding: var(--padding-5xs) var(--padding-sm);
+  background-color: transparent;
+  box-shadow: var(--button-effect);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  gap: var(--gap-8xs);
+}
+.callToActionContainerWrapper {
+  padding: 0 var(--padding-8xs);
+}
+.theExchangeNeededOnXionEParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-188xl);
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-100);
+}
+.descriptionContent,
+.descriptionRow,
+.theExchangeNeededOnXionEParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.descriptionContent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.descriptionRow {
+  width: 347px;
+  flex-direction: column;
+  padding: var(--padding-243xl) 0 0;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.joinWaitlist {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  font-family: var(--font-sarabun);
+  color: var(--bg-colour);
+  text-align: left;
+  display: inline-block;
+  min-width: 91px;
+}
+.mingcutearrowLeftUpLineIcon1 {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.mingcutearrowLeftUpLineWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.joinWaitlistParent,
+.mingcutearrowLeftUpLineWrapper,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+}
+.joinWaitlistParent {
+  cursor: pointer;
+  border: 1px solid var(--border-lines);
+  padding: var(--padding-5xs) var(--padding-4xs);
+  background-color: var(--sub-primary);
+  box-shadow: var(--button-effect);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  z-index: 1;
+}
+.vectorParent {
+  height: 859.8px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-283xl) var(--padding-66xl) var(--padding-282xl-8);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  margin-left: -201px;
+}
+.descriptionContainer,
+.descriptionContainerWrapper {
+  width: 1153.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.descriptionContainerWrapper {
+  width: 1433.9px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  margin-top: -60px;
+  text-align: left;
+  font-size: var(--font-size-39xl);
+  color: var(--white);
+  font-family: var(--font-sarabun);
+}
+@media screen and (max-width: 825px) {
+  .refurbishingTheRealm {
+    font-size: var(--font-size-27xl);
+    line-height: 43px;
+  }
+  .descriptionRow,
+  .vectorParent {
+    padding-top: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+  .vectorParent {
+    padding-top: var(--padding-283xl);
+    padding-bottom: var(--padding-177xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .refurbishingTheRealm {
+    font-size: var(--font-size-16xl);
+    line-height: 32px;
+  }
+  .theExchangeNeededOnXionEParent {
+    gap: var(--gap-84xl);
+  }
+  .vectorParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

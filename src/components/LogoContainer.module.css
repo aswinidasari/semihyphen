@@ -1,0 +1,202 @@
+.logo131Icon {
+  align-self: stretch;
+  width: 42px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 29px;
+}
+.semiHyphen {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 118px;
+  white-space: nowrap;
+}
+.logoRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  color: var(--color-aquamarine);
+}
+.mingcutearrowLeftUpLineIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.mingcutearrowLeftUpLineWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.contentContainer,
+.contentContainerWrapper,
+.mingcutearrowLeftUpLineWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contentContainer {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+}
+.contentContainerWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.waitlist {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 71px;
+}
+.mingcutearrowLeftUpLineIcon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.mingcutearrowLeftUpLineContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.waitlistContainer {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  cursor: pointer;
+}
+.logoParent,
+.waitlistContainer,
+.waitlistContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.waitlistContainerWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.logoParent {
+  flex-direction: row;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.frameChild {
+  object-fit: cover;
+}
+.frameChild,
+.frameItem {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  min-height: 30px;
+}
+.frameParent,
+.launchRow {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.launchRow {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+}
+.launchApp {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-family: var(--font-sarabun);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 106px;
+}
+.launchAppWrapper,
+.launchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.launchAppWrapper {
+  cursor: pointer;
+  border: 1px solid var(--border-lines);
+  padding: var(--padding-9xs) var(--padding-sm);
+  background-color: var(--sub-primary);
+  box-shadow: var(--button-effect);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+.launchAppWrapper:hover {
+  background-color: var(--color-darkcyan);
+  border: 1px solid var(--color-slategray);
+  box-sizing: border-box;
+}
+.launchContainer {
+  align-items: flex-end;
+  gap: var(--gap-11xl);
+}
+.launchContainerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.logoContainer {
+  align-self: stretch;
+  background: linear-gradient(180deg, #040404, rgba(4, 4, 4, 0.8));
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-66xl) var(--padding-2xl)
+    var(--padding-41xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--greytext);
+  font-family: var(--font-sarabun);
+}
+@media screen and (max-width: 825px) {
+  .logoContainer {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logoParent {
+    gap: var(--gap-11xl);
+  }
+  .logoContainer {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

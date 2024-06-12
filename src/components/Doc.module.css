@@ -1,0 +1,19 @@
+.doc1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 35px;
+}
+.doc {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) var(--padding-11xs) 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--greytext);
+  font-family: var(--font-sarabun);
+}
